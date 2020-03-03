@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from './style.module.css'
+import styles from './style.css'
 
 const Header = (props) => {
   return (
@@ -10,6 +10,9 @@ const Header = (props) => {
         <a href="/">About Us</a>
         <a href="/">Contact Us</a>
       </nav>
+      <div>
+        Social Media Links
+      </div>
     </header>
   )
 }

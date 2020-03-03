@@ -1,0 +1,41 @@
+.BlogPostContainer {
+  width: 70%;
+}
+
+.BlogHeader {
+  text-align: center;
+}
+
+.BlogPostCategory {
+  font-size: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.BlogPostTitle {
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.BlogPostedBy {
+  font-size: 16px;
+  font-style: italic;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.BlogPostImageContainer {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.BlogPostImageContainer img{
+  width: inherit;
+  max-width: 100%;
+  max-height: 100%;
+}

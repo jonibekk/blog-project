@@ -1,0 +1,11 @@
+
+.Logo {
+  text-align: center;
+}
+
+.Logo a{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-decoration: none;
+  color: #333;
+}

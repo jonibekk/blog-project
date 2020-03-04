@@ -1,0 +1,55 @@
+.HomeContainer {
+  width: 70%;
+}
+
+.PostImageWrapper {
+  height: 450px;
+  overflow: hidden;
+}
+
+.PostImageWrapper img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.PostContent {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.PostContent p, span {
+    color: #6c6c66;
+}
+
+.PostContent h2 {
+  color: #333;
+  font-weight: 400;
+}
+
+.PostContent p {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.PostContent button {
+  transition: all 1s ease;
+  margin-bottom: 25px;
+  border: solid 1px #ADADAD;
+  background: #fafafa;
+  color: #ADADAD;
+  border-radius: 90px;
+  padding: 10px 25px 8px;
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.PostContent button:focus {
+  outline-width: 0;
+}
+
+.PostContent button:hover,
+.PostContent button:active {
+  background: #53a2d5;
+  color: #fafafa;
+}

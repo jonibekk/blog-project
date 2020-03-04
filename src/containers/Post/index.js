@@ -5,10 +5,11 @@ import SideBar from '../../components/SideBar'
 import styles from './style.css'
 
 const Post = (props) => {
+
   return (
     <section className={styles.container}>
-      <BlogPost />
-      <SideBar />
+      <BlogPost {...props} />
+      <SideBar {...props} />
     </section>
   )
 }

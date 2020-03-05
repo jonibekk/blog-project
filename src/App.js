@@ -17,7 +17,7 @@ function App() {
         <Hero />
         <Switch>
           <Route path='/contact-us' component={ContactUS} />
-          <Route path='/post/:postId' component={Post} />
+          <Route path='/post/:slug' component={Post} />
           <Route path='/' exact component={Home} />
         </Switch>
       </div>

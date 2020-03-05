@@ -4,7 +4,7 @@
   margin: 10px 0;
 }
 
-.HeaderMenu a{
+.HeaderMenu a {
   display: inline-block;
   margin: 0 10px;
   text-decoration: none;
@@ -16,4 +16,15 @@
 
 .HeaderMenu a:hover {
   color: #5f9ea0;
+}
+
+.SocialMedia {
+  margin: 0 10px;
+}
+
+@media (max-width: 648px) {
+  .Header {
+    display: grid;
+    grid-template-columns: 1;
+  }
 }

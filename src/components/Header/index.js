@@ -10,7 +10,7 @@ const Header = (props) => {
         <a href="/">About Us</a>
         <a href="/">Contact Us</a>
       </nav>
-      <div>
+      <div className={styles.SocialMedia}>
         Social Media Links
       </div>
     </header>

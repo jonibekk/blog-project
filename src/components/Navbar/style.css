@@ -31,7 +31,8 @@
 
 .SearchInput {
   border: 0 solid white;
-  width: 150px;
+  width: auto;
+  max-width: 150px;
   transition: width 0.5s ease-in;
 }
 .SearchInput:focus {
@@ -39,4 +40,20 @@
 }
 .SearchInput:active {
   width: 150px;
+}
+
+@media (max-width: 648px) {
+  .NavbarMenu {
+    display: none;
+  }
+  .Search {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Search form {
+    float: right;
+  }
+  .SearchInput {
+    max-width: 100%;
+  }
 }

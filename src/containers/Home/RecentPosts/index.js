@@ -1,9 +1,13 @@
 import React from 'react'
 
 import Card from '../../../components/UI/Card'
+import PostData from '../../../data/blog.json'
 import styles from './style.css'
 
 const RecentPosts = (props) => {
+
+
+
   return (
     <div className={styles['HomeContainer']}>
       <Card style={{marginBottom: '20px'}}>

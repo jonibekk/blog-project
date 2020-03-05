@@ -6,7 +6,7 @@ import styles from './style.css'
 
 const ImageGallery = (props) => {
   return (
-    <div style={props.mstyle} className={styles.ImageGallery}>
+    <div style={props.style} className={styles.ImageGallery}>
       <div className={styles.Layer}></div>
       <img src={props.src} alt='something!'/>
       <div className={styles.OverImage} style={{top: props.top}}>

@@ -3,3 +3,25 @@
   justify-content: space-between;
   margin: 20px 0;
 }
+
+.BlogPost {
+  width: 70%;
+}
+
+.SideBar {
+  width: 28%;
+}
+
+@media (max-width: 906px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr);
+  }
+  .BlogPost {
+    width: 100%;
+  }
+  .SideBar {
+    margin-top: 15px;
+    width: 100%;
+  }
+}

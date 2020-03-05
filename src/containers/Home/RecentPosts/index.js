@@ -19,7 +19,6 @@ const RecentPosts = (props) => {
           <button>Read More</button>
         </div>
 
-
       </Card>
       <Card style={{marginBottom: '20px'}}>
         Post 2

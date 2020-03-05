@@ -1,0 +1,54 @@
+.ImageGallery {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.Layer {
+  z-index: 200;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.ImageGallery .OverImage {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.ImageGallery:hover .Layer {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.ImageGallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.OverImage h4 {
+  margin: 5px;
+  color: white;
+  font-weight: 400;
+}
+
+.OverImage span {
+  transition: all 1s ease;
+  background: #53a2d5;
+  border: solid 0 #adadad;
+  color: #fafafa;
+  border-radius: 90px;
+  padding: 5px 15px;
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.OverImage button:focus {
+  outline: none;
+}

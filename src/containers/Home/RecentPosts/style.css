@@ -3,7 +3,8 @@
 }
 
 .PostImageWrapper {
-  height: 450px;
+  height: auto;
+  max-height: 450px;
   overflow: hidden;
 }
 
@@ -35,9 +36,9 @@
 .PostContent button {
   transition: all 1s ease;
   margin-bottom: 25px;
-  border: solid 1px #ADADAD;
   background: #fafafa;
-  color: #ADADAD;
+  border: solid 1px #adadad;
+  color: #6c6c6c;
   border-radius: 90px;
   padding: 10px 25px 8px;
   font-family: "Open Sans",sans-serif;

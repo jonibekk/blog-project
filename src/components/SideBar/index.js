@@ -17,7 +17,8 @@ const SideBar = (props) => {
 
 
   return (
-    <div className={styles.SideBarContainer}>
+    <div className={styles.SideBarContainer} style={{width: props.width}}>
+
       <Card style={{marginBottom: '15px'}}>
         <div className={styles.SideCardHeader}>
           <span>About Us</span>
@@ -30,15 +31,18 @@ const SideBar = (props) => {
           <p>I am Jonibek Norboev and I am a Software Engineer at Keiyo-Bend Co. Ltd., Graduated at INHA University!</p>
         </div>
       </Card>
+
       <Card style={{marginBottom: '15px'}}>
         <div className={styles.SideCardHeader}>
           <span>Social Network</span>
         </div>
       </Card>
+
       <Card style={{marginBottom: '15px'}}>
         <div className={styles.SideCardHeader}>
           <span>Recent Posts</span>
         </div>
+
         <div className={styles.RecentPosts}>
           {
             posts.map((post) => (
@@ -52,6 +56,7 @@ const SideBar = (props) => {
           }
         </div>
       </Card>
+
     </div>
   )
 }

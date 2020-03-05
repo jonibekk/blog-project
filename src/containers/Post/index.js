@@ -9,7 +9,7 @@ const Post = (props) => {
   return (
     <section className={styles.container}>
       <BlogPost {...props} />
-      <SideBar {...props} />
+      <SideBar {...props} width='28%'/>
     </section>
   )
 }
